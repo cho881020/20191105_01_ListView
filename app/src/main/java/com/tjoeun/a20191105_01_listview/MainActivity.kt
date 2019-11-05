@@ -63,6 +63,14 @@ class MainActivity : AppCompatActivity() {
 
 
         roomList.add(RoomData("은평구 불광동"))
+        roomList.add(RoomData("은평구 불광동"))
+        roomList.add(RoomData("은평구 불광동"))
+        roomList.add(RoomData("은평구 불광동"))
+        roomList.add(RoomData("은평구 불광동"))
+        roomList.add(RoomData("은평구 불광동"))
+        roomList.add(RoomData("은평구 불광동"))
+        roomList.add(RoomData("은평구 불광동"))
+        roomList.add(RoomData("은평구 불광동"))
 
     }
 
