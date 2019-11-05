@@ -47,6 +47,17 @@ class MainActivity : AppCompatActivity() {
         room3.address = "마포구 성산동"
         room3.floor = 5
         roomList.add(room3)
+
+
+        var room4 = RoomData(12000, "마포구 망원1동", 3)
+        roomList.add(room4)
+
+
+        roomList.add(RoomData(15000, "마포구 망원동", 2))
+
+
+        roomList.add(RoomData("은평구 불광동"))
+
     }
 
 }
