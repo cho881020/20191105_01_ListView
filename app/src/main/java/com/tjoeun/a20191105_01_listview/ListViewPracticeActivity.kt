@@ -17,7 +17,7 @@ class ListViewPracticeActivity : AppCompatActivity() {
 
         addPosts()
 
-        postAdapter = PostAdapter(this, R.layout.post_list_item, postList)
+        postAdapter = PostAdapter(this, postList)
         postListview.adapter = postAdapter
     }
 

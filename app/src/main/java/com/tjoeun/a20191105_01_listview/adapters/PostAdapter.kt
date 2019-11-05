@@ -16,6 +16,7 @@ class PostAdapter(context:Context, res:Int, list:ArrayList<PostData>)
     var mList = list
     var inf = LayoutInflater.from(mContext)
 
+    constructor(context:Context, list:ArrayList<PostData>) : this(context, R.layout.post_list_item, list)
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
         var row = convertView
